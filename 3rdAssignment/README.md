@@ -1,41 +1,15 @@
-# machine-learning
+## Machine Learning Assignment 3
 
-## Assignment 3 Option 1: Amazon Fine Food Reviews
+In this assignment, you will used an unsupervised learning method to cluster. Choose any one of the following three options for completing the assignment: 
 
-This assignment entails clustering Amazon review data. 
-The Jupyter notebook is found [here](kmeans_amazon.ipynb).
+### [Option 1](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_1)
 
-### Draft 1
+Work with the Amazon Fine Food Reviews dataset, consisting of 455,000 food reviews Amazon users left up to October 2012 **to create a recommendation engine for Amazon products**. [[Download Amazon.csv here](https://drive.google.com/open?id=0Bxpj6pLMNxkTMXBtRFAydXJPQ2s); must be logged into Google with your newschool.edu to access]
 
-When starting out it soon became apparent that the data has a "long tail" in the number of reviews,
-i.e. many records have only a few number of reviews, which make it more difficult to cluster properly.
-By doing an eigenvalue/inertia plot it was found that filtering data by the number of reviews had
-a significant effect on the amount of clusters that could be identified.
+### [Option 2](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_2)
 
-Including only data with more than 4 reviews:
-![here](4reviews.png)
+Work with a set of images of and metadata on ~400 works of fine art from museum collections and galleries **to cluster them on metadata and/or image characteristics**. 
 
-Including only data with more than 50 reviews:
-![here](50reviews.png)
+### [Option 3](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_3)
 
-The elbow plot seemed mostly invariant of the chosen number of clusters.
-With processing limits much more than 50 clusters would need to be used
-to get a meaningful model.
-
-Including only data with more than 100 reviews up to 20 clusters:
-![here](100reviews.png)
-Including only data with more than 100 reviews up to 50 clusters:
-![here](100reviews_b.png)
-
-Including only data with more than 150 reviews seems promising, 
-because a clear elbow can be identified at 10 clusters.
-![here](150reviews.png)
-
-
-Including only data with more than 150 reviews yields an acceptable silhouette plot.
-When fewer clusters are selected (not shown) there are clusters that are very wide
-and very flat.
-![here](150reviews_plot.png)
-
-It is recommended to also investigate further transformations on the text.
-
+Work with data on food contamination **to cluster incident descriptions into broader categories**. 
