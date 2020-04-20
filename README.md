@@ -23,6 +23,6 @@ The assignment is found [here](https://github.com/acdreyer/machine-learning/tree
 
 ## Assignment 3: Text clustering
 
-This assignment entails clustering text data using unsupervised learning. The assighment details can be found [here](https://github.com/visualizedata/ml/blob/master/ML_assignment_3/README.md).
+This assignment entails clustering text data using unsupervised learning. The assighment details can be found [here](https://github.com/visualizedata/ml/blob/master/ML_assignment_3/README.md) with [Option 1](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_1).
 
-[Option 1](https://github.com/visualizedata/ml/tree/master/ML_assignment_3/option_1) was chosen.
+The completed assignment can be found [here](https://github.com/acdreyer/machine-learning/tree/master/3rdAssignment/option_1)
