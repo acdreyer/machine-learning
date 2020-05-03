@@ -21,3 +21,9 @@ fd, hog_image = hog(downscaled, orientations=2, pixels_per_cell=(8, 8),
 
 The neural network performed slightly better than perceptron and with `alpha=0.0004` the test data performance was almost the same as the training data performance. 
 The [model is here](planeimages_first_full_iteration.ipynb)
+
+### Final version
+
+The final version of the assignment included updates to the neural network layers.
+Previously only one layer with 100 rows was used, but was updated to two layers
+with 50 rows each. More experimentation with the amount of layers could likely be conducted.
