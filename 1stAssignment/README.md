@@ -56,3 +56,7 @@ The 1st draft had poor performance and additional features were added. The initi
 
 Numerical features were also added, namely count of exclamation marks, question marks and uppercase characters. The ridge regression model was found to perform best, with parameters `alpha=5` and `normalize=True`.
 The model is [here](toxiccomments_2ndDraft.ipynb).
+
+### Final version
+
+No significant gains could be made in the alloted time going from the 2nd draft to the final version.
